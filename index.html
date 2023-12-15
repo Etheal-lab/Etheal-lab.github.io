@@ -4,6 +4,68 @@
     <meta charset="UTF-8">
     <title>Wireless Communication Researcher</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional styles for specific elements */
+        header.upper-section {
+            background-image: url('site_logo.png');
+            background-position: top left;
+            background-repeat: no-repeat;
+            padding: 20px;
+            color: #fff;
+        }
+
+        header.upper-section .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header.upper-section .profile {
+            display: flex;
+            align-items: center;
+        }
+
+        header.upper-section .profile img {
+            max-width: 100px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        header.upper-section .profile .text {
+            text-align: left;
+        }
+
+        header.upper-section nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        header.upper-section nav ul li {
+            margin-right: 20px;
+        }
+
+        header.upper-section nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        section#home {
+            padding: 20px;
+        }
+
+        section#home h1 {
+            font-size: 36px;
+            color: green;
+        }
+
+        section#home p {
+            /* Your paragraph styles */
+        }
+
+        /* Add similar styles for other sections as needed */
+    </style>
 </head>
 <body>
     <header class="upper-section">
@@ -21,125 +83,73 @@
                     <li><a href="#publications">Publications</a></li>
                     <li><a href="#research">Research</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#skills">Software Skills</a></li>
+                    <li><a href="Software Skills">Software Skills</a></li>
                     <li><a href="#cv">CV</a></li>
                     <li><a href="#proposals">PhD Proposals</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+
     <!-- Rest of your content -->
     <!-- Sections for Publications, Research, Portfolio, etc. -->
-    
+
     <!-- Homepage section -->
     <section id="home">
-        <h1>Welcome to my Homepage!</h1>
-        <p>I invite you to embark on a journey into the fascinating world of microwave and millimeter-wave signal propagation, where I dedicate my research to exploring the intricate interplay between weather phenomena and wireless communication. As a Master's degree candidate in Information and Communication Engineering at the esteemed School of Electronics and Information Engineering, Beijing Jiaotong University, I am passionate about harnessing the power of explainable deep learning to unlock the secrets of weather's impact on these crucial communication bands.
-
-            My research delves into the analysis of time-series data with <a href="https://www.tensorflow.org/">TensorFlow</a>, seeking to understand and predict how weather elements like <strong>Rain</strong>, <strong>Temperature</strong>, <strong>Humidity</strong>, <strong>Cloud cover</strong>, and <strong>Fog</strong> affects signal propagation in the higher frequency band such as mmWave band. Through the meticulous integration of diverse weather and climate data from sources like <a href="https://www.noaa.gov/tools-and-resources/weather-and-climate-resources">NOAA.GOV</a>, <a href="https://www.itu.int/en/ITU-R/study-groups/rsg3/Pages/dtbank-dbsg3.aspx">ITUdatabanks</a>, <a href="https://chrs.web.uci.edu/">CHRS</a>, local weather stations, radio wave propagation measurement centers, and more, I strive to paint a comprehensive picture of this complex interplay. 
-            
-            My master's degree thesis titled as <strong>Deep Learning Based Rain Attenuation Prediction Modeling for Microwave and mmWave Band</strong> is one of the research works that I am exploring, currently investigating in collaboration with the supervision of my academic advisor <a href="https://faculty.bjtu.edu.cn/eie/8077.html">Prof. Xiong Lei</a>. The above mentioned data sources are the main data sources of this research. 
-            
-            But my academic journey extends beyond this primary focus. My keen interest in satellite communication, remote sensing, and the application of information and communication engineering in diverse fields fuels my exploration into these realms as well. Whether it's unraveling the mysteries of cloud and precipitation measurements from satellites or pushing the boundaries of Beidou technology, my passion for knowledge knows no bounds.</p>
-        <h2>My achievements serve as testaments to my dedication to excellence</h2>
-        <strong>A.ALX Full Stack Software Engineering </strong>
-        <p>Successfully graduated from the rigorous ALX Full Stack Software Engineering Training Course, equipping myself with invaluable skills that enhance my research capabilities. This immersive experience not only enhanced my software acumen but also amplified my programming prowess, profoundly elevating my capabilities in the realm of research. The enriching details of this program can be discovered here.</p>
-        <strong>B. International Training Workshop </strong>
-        <p>Earned a certificate of completion from the 2023 International Training Workshop on Beidou Technology and Its Application in the Belt and Road Countries and Regions solidifying my understanding of GNSS, specifically <a href="http://en.beidou.gov.cn/SYSTEMS/System/">BeiDou Navigation Satellite System</a> technology. This training workshop not only have solidified my understanding about satellite navigation system but also have impacted my research interest twoward this technology. Since then, I am quite impressed with the cutting edge technology in this field and it jas become my priority to embark myself in as a young research talent. </p>
-        <p>As I navigate the exciting and challenging landscape of academic research, I remain committed to rigor, integrity, and collaboration. I welcome fellow researchers and individuals with shared interests to explore my website, engage in discussions, and join me on this intellectual quest.</p>
-        <h3>Prepare to be captivated by the hidden wonders of wireless communication!</h3>
-            <!-- Add your specific content here for the Homepage -->
+        <!-- Your existing content for the Homepage section -->
     </section>
 
-    <section id="CV">
+    <!-- CV section -->
+    <section id="cv">
         <h1>Welcome to my online Resume!</h1>
-        <p>Here I have posted the English version and Chinese version of my CV.</p>
-        <h2>English Version</h2>
-        <iframe src="files/CV/CV-Endale.pdf" class="cv-iframe" title="English Version"></iframe>
-        <h3>CHinese Version</h3>
-        <iframe src="files/CV/个人简历.pdf" class="cv-iframe" title="Chinese Version"></iframe>
-        <p>You can download a PDF copy of my CV <a href="files/CV/CV-Endale.pdf">English Version</a> and <a href="files/CV/个人简历.pdf">Chinese Version</a>.</p>
-
+        <!-- Your existing content for the CV section -->
     </section>
 
+    <!-- Research section -->
     <section id="research">
-        <h2>FPGA Design of UART Instruction Controller</h2>
-        <p>In this research, I developed an innovative method for designing a Universal Asynchronous Transceiver (UART) instruction control system.The UART instruction controller is capable of receiving data from a personal computer via the receiving UART and perform the designed arithmetic or logic operations on the FPGA development board and then return the result of the operations to the computer via the transmitting UART. Theis design is focused on the Verilog HDL coding and the FPGA design flow, so a complex instruction set is not necessarily required. The Verilog modules is simulated by Modelsim simulating software and tested on an FPGA.</p>
-        <ul>
-        <p><strong>Research Objectives:</strong></p>   
-          <li>Implementing a UART using an FPGA</li>
-          <li>Setting baud rates and monitoring UART states</li>
-          <li>System modularization using the Top-Down approach</li>
-          <li>Utilizing a Finite State Machine (FSM) for UART logic control</li>
-          <li>Validation and reliability proof through simulation experiments</li>
-        </ul>
-        <p><strong>Design Specifications:</strong></p>
-        <ul>
-          <li>Port Type: UART</li>
-          <li>System Clock Frequency: 24MHz</li>
-          <li>FPGA Board Type: Altera Cyclone I</li>
-          <li>Baud Rate: 9600</li>
-          <li>Instruction Set Architecture: a+b, ~a, a^b, a*b</li>
-        </ul>
-        <p><strong>Specific operations:</strong></p>
-        <ul>
-         <li>Data Receiving Operations: The data reception operations are done by the UART Receiver module. This module is named as UART_RX.</li>
-         <li>Instruction Execution / Arithmetic or Logic Operations: The instruction execution operations are done by the UART Instruction Controller module. This module is named as cmd_pro.</li>
-         <li>Data Transmitting Operations: The data transmission operations are done by the UART Transmitter module. This module is named as UART_TX.</li>
-        </ul>
-        <p><strong>The Generalized System Architecture:</strong></p>
-        <div style="text-align: center;">
-          <img src="images/Generalized.png" alt="Generalized system architecture" style="width:500px;height:400px;">
-        </div>
-        
-      </section>
+        <!-- Your existing content for the Research section -->
+    </section>
+
+    <!-- Other sections can follow similarly -->
 
     <footer>
         &copy; 2023 HABTE ENDALE LEGESSE 
     </footer>
+
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // Get all navigation links
-        const navLinks = document.querySelectorAll('nav ul li a');
-    
-        // Get all content sections
-        const sections = document.querySelectorAll('section');
-    
-        // Hide all content sections
-        sections.forEach(section => {
-          section.style.display = 'none';
-        });
-    
-        // Add click event listeners to each link
-        navLinks.forEach(link => {
-          link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = link.getAttribute('href').substring(1);
-    
-            // Hide all sections
+        // JavaScript code for navigation
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get all navigation links
+            const navLinks = document.querySelectorAll('nav ul li a');
+
+            // Get all content sections
+            const sections = document.querySelectorAll('section');
+
+            // Hide all content sections
             sections.forEach(section => {
-              section.style.display = 'none';
+                section.style.display = 'none';
             });
-    
-            // Show the target section
-            const targetSection = document.getElementById(targetId);
-            if (targetSection) {
-              targetSection.style.display = 'block';
-              targetSection.scrollIntoView({ behavior: 'smooth' });
-    
-              // Additional handling for CV section
-              if (targetId === 'CV') {
-                const cvIFrames = targetSection.querySelectorAll('.cv-iframe');
-                cvIFrames.forEach(iframe => {
-                  iframe.style.display = 'block';
+
+            // Add click event listeners to each link
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href').substring(1);
+
+                    // Hide all sections
+                    sections.forEach(section => {
+                        section.style.display = 'none';
+                    });
+
+                    // Show the target section
+                    const targetSection = document.getElementById(targetId);
+                    if (targetSection) {
+                        targetSection.style.display = 'block';
+                        targetSection.scrollIntoView({ behavior: 'smooth' });
+                    }
                 });
-              }
-            }
-          });
+            });
         });
-      });
     </script>
-      
-      
 </body>
 </html>
