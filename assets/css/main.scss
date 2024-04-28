@@ -10,7 +10,7 @@
  *
 */
 
-@import "vendor/breakpoint"; // Corrected import path for media query mixins
+@import "breakpoint"; // Adjusted import path for media query mixins
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
