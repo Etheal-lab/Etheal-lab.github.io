@@ -14,9 +14,9 @@ title                    : "HABTE ENDALE LEGESSE"
 title_separator          : "-"
 name                     : &name "HABTE ENDALE LEGESSE"
 description              : &description "Master degree student in information and communication engineering"
-url                      :  https://Endale24.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      :  https://Etheal-lab.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Endale24/Endale24.github.io"
+repository               : "Etheal-lab/Etheal-lab.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -106,7 +106,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Endale24"
+  github           : "Etheal-lab"
   gitlab           : 
   google_plus      :
   keybase          :
