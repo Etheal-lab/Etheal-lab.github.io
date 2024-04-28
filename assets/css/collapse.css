@@ -1,3 +1,8 @@
+body {
+  background-image: url("{{ site.background_image }}");
+  /* Other background styles */
+}
+
 .container {
     width:100%;
     border:1px solid #d3d3d3;

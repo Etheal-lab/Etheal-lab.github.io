@@ -7,27 +7,11 @@ header:
   og_image: "research/ecdf.png"
 ---
 
-My academic research falls into two main areas: understanding the influence of
-geography on actor behavior before, during, and after civil conflict, and
-developing new tools to improve the study of institutions (both formal and
-informal) in peace and conflict. One strand of research in this first area
-explores how the territories that ethnic groups inhabit shape rebel group
-formation and condition their relationship with the state. My interest in
-geography also informs projects on active conflicts including the targeting of
-UN peacekeepers by insurgent groups, civilian victimization after rebel
-territorial conquest, and communal violence in fragile settings.
+My academic research falls into two main areas: The first one from the top is the study of **The Atmospheric Impairments on the High Frequency (microwave and mmWave)  Band**. This study is based on **ITU-R** study and published documents. The **ITU-R** study group,  which studies the **radio communication sector**, publishes scientific documents which studies many  atmospheric impairments such as rain, fog, cloud, temprature,...e.t.c. My main investigation in this research is specified to Rain Attenuation on microwave and mmWave band.  My aim is to design a deep learning based prediction model using the existing **ITU-R** research documents and prediction models for rain attenuation modeling. The region of interest of this research is **ETHIOPIA** and I believe this research will contribute a lot for Academicians, researchers and engineers in the region. 
 
-My other main research agenda uses advanced methods to develop new measures of
-institutions. One project uses Bayesian item response theory to measure the
-strength of peace agreements as a latent variable and free researchers from
-post-treatment bias caused by using the duration of agreements as a proxy for
-their strength. In others, I apply unsupervised learning techniques to over a
-billion observations of product-level international trade data to measure
-economic interdependence and illicit economic exchange.
+My other main research was on a simple design of **UART Instruction Controller** based on **FPGA(Feild Programable Gate Array)**, a project that I developed a simple method to design such a port using  **Verilog HDL**. This research was a project submitted in partial fulfillment of the requirements for the degree of Bachelor in Communication Engineering. In this project I have developed a skills of hardware description language such as verilog and grasp a fundamental working principle of **FPGA**s. 
 
-In a new avenue of research, I leverage social media data to explore
-participation in extremist movements across multiple contexts, gaining insight
-into the early stages of radicalization.
+
 
 <nbsp>
 

@@ -5,15 +5,18 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+#Theme
+theme:  jekyll-theme-hacker
+
 # Site Settings
-locale                   : "en-US"
-title                    : "Rob Williams"
+locale                 : "en-US"
+title                    : "HABTE ENDALE LEGESSE"
 title_separator          : "-"
-name                     : &name "Rob Williams"
-description              : &description "Postdoc in Political Science"
-url                      : https://jayrobwilliams.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "HABTE ENDALE LEGESSE"
+description              : &description "Master degree student in information and communication engineering"
+url                      :  https://Endale24.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jayrobwilliams/jayrobwilliams.github.io"
+repository               : "Endale24/Endale24.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -49,6 +52,8 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+
+background_image: /images/site-logo.png
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -57,7 +62,7 @@ yandex_site_verification :
 
 # Social Sharing
 mastodon:
-  username               : "fosstodon.org/@jayrobw"
+  username               : 
 twitter:
   username               : 
 facebook:
@@ -75,25 +80,25 @@ social:
 
 # Analytics
 analytics:
-  provider               : "goatcounter" # false (default), "google", "google-universal", "custom", "goatcounter"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom", "goatcounter"
   google:
     tracking_id          : 
   goatcounter:
-    code		 : jayrobwilliams
+    code		 : 
 
 
 # Site Author
 author:
-  name             : "Rob Williams"
+  name             : "HABTE ENDALE LEGESSE"
   avatar           : "profile.png"
-  bio              : "Data Scientist"
-  location         :
-  employer         :
+  bio              : "Master Degree Candidate"
+  location         : "Beijing"
+  employer         : "Beijing Jiaotong University"
   pubmed           :
-  orcid            : "http://orcid.org/0000-0001-9259-3883"
-  googlescholar    : "https://scholar.google.com/citations?user=fiaPSmgAAAAJ"
-  email            : "rob.williams@wustl.edu"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  orcid            : "https://orcid.org/0000-0002-7516-6449"
+  googlescholar    : "https://scholar.google.com/citations?user=ii8j5TIAAAAJ&hl=en"
+  email            : "endale_21@bjtu.edu.cn"
+  researchgate     : "https://www.researchgate.net/profile/Endale-Legesse-Habtee"
   uri              :
   bitbucket        :
   codepen          :
@@ -101,15 +106,15 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "jayrobwilliams"
-  gitlab           : "jayrobwilliams"
+  github           : "Endale24"
+  gitlab           : 
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  mastodon         : "fosstodon.org/@jayrobw"
+  mastodon         : 
   pinterest        :
   soundcloud       :
   stackoverflow    : #"https://stackoverflow.com/users/10912314/jayrobwilliams"
@@ -189,17 +194,20 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
-  talks:
+  portfolio:
     output: true
     permalink: /:collection/:path/
+  PhD:
+    output: true
+    permalink: /:collection/:path/   
 
 
 # Defaults
 defaults:
-  # _posts
+  # _portfolio
   - scope:
       path: ""
-      type: posts
+      type: portfolio
     values:
       layout: single
       author_profile: true
@@ -214,10 +222,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _software
   - scope:
       path: ""
-      type: teaching
+      type: software 
     values:
       layout: single
       author_profile: true
@@ -241,12 +249,12 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _PhD-Proposal
   - scope:
       path: ""
-      type: talks
+      type: PhD
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
 
@@ -314,3 +322,5 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+

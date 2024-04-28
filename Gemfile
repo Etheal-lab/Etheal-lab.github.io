@@ -5,7 +5,10 @@ source "https://rubygems.org"
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
 #     bundle exec jekyll serve
-#
+#happy jekylling!
+gem "jekyll", "~> 3.6"
+#This is the defualt theme for the new jekyll site.
+gem 'jekyll-theme-hacker', '~> 0.2.0'
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
@@ -13,9 +16,9 @@ gem "github-pages", group: :jekyll_plugins
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
-
 # gem "jekyll"
-
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'webrick'
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # If you have any plugins, put them here!
