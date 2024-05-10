@@ -16,8 +16,7 @@ gallery:
 header:
   og_image: "software/Simulation of UART_TOP module.png"
 ---
-# Software Skills 
-
+# Skills
 ## Programming Languages
 - **Matlab:** Proficient in writing scripts and functions for numerical computation and data analysis.  
   <img src="https://github.com/Etheal-lab/Etheal-lab.github.io/blob/main/images/software/matlab.svg" alt="Matlab Logo" height="50">
