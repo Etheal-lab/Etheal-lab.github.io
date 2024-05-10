@@ -19,7 +19,7 @@
 - **NS3:** Skilled in network simulation and protocol analysis.  
   <img src="https://github.com/Etheal-lab/Etheal-lab.github.io/blob/main/images/software/ns-3.png" alt="NS3 Logo" height="50">
 - **ModelSim:** Proficient in simulating and verifying digital designs using VHDL or Verilog.  
-  <img src="https://github.com/Etheal-lab/Etheal-lab.github.io/blob/main/images/software/ModelSim.png" alt="ModelSim Logo" height="50">
+  <img src="https://github.com/Etheal-lab/Etheal-lab.github.io/blob/main/images/software/ModelSim.svg" alt="ModelSim Logo" height="50">
 
 ## Software Libraries
 - **TensorFlow:** Experienced in building and training deep learning models for various tasks such as image recognition and natural language processing.  
