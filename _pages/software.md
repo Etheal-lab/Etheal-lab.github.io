@@ -1,3 +1,40 @@
+
+# Software Skills
+
+## Programming Languages
+- **Matlab:** Proficient in writing scripts and functions for numerical computation and data analysis.  
+  <img src="matlab_logo.png" alt="Matlab Logo" height="50">
+- **Python:** Experienced in developing applications, data analysis, and machine learning models using libraries like NumPy, Pandas, and Scikit-learn.  
+  <img src="python_logo.png" alt="Python Logo" height="50">
+- **C/C++:** Proficient in developing efficient and optimized code for various applications.  
+  <img src="cplusplus_logo.png" alt="C/C++ Logo" height="50">
+- **Java/CSS/HTML:** Skilled in building dynamic web applications and user interfaces.  
+  <img src="java_logo.png" alt="Java Logo" height="50">
+
+## Network Simulation Softwares
+- **Huawei eNSP:** Proficient in simulating and configuring network topologies for testing and troubleshooting.  
+  <img src="huawei_logo.png" alt="Huawei Logo" height="50">
+- **Wireshark:** Experienced in analyzing network traffic and troubleshooting network issues.  
+  <img src="wireshark_logo.png" alt="Wireshark Logo" height="50">
+- **NS3:** Skilled in network simulation and protocol analysis.  
+  <img src="ns3_logo.png" alt="NS3 Logo" height="50">
+- **ModelSim:** Proficient in simulating and verifying digital designs using VHDL or Verilog.  
+  <img src="modelsim_logo.png" alt="ModelSim Logo" height="50">
+
+## Software Libraries
+- **TensorFlow:** Experienced in building and training deep learning models for various tasks such as image recognition and natural language processing.  
+  <img src="tensorflow_logo.png" alt="TensorFlow Logo" height="50">
+
+## Code or Document Management Software
+- **GitHub:** Proficient in version control, collaboration, and managing repositories for software projects.  
+  <img src="github_logo.png" alt="GitHub Logo" height="50">
+- **VS Code:** Skilled in using Visual Studio Code as an integrated development environment for various programming languages.  
+  <img src="vscode_logo.png" alt="VS Code Logo" height="50">
+- **MS Office:** Experienced in using Microsoft Office suite for documentation, presentation, and data analysis tasks.  
+  <img src="microsoft_office_logo.png" alt="MS Office Logo" height="50">
+
+
+
 ---
 permalink: /software/
 title: "Software Skills"
