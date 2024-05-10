@@ -36,7 +36,6 @@
 
 ---
 permalink: /software/
-title: "Software Skills"
 gallery:
   - url: /images/software/cmd_pro module input output diagram.png
     image_path: /images/software/cmd_pro module input output diagram.png
