@@ -16,7 +16,7 @@ gallery:
 header:
   og_image: "software/Simulation of UART_TOP module.png"
 ---
-
+# Software Skills 
 
 ## Programming Languages
 - **Matlab:** Proficient in writing scripts and functions for numerical computation and data analysis.  
