@@ -10,7 +10,7 @@ theme:  jekyll-theme-hacker
 
 # Site Settings
 locale                 : "en-US"
-title                    : "HABTE ENDALE LEGESSE"
+title                    : "About Me"
 title_separator          : "-"
 name                     : &name "HABTE ENDALE LEGESSE"
 description              : &description "Master degree student in information and communication engineering"
